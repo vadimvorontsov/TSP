@@ -1,0 +1,53 @@
+{
+  "name": "tsp",
+  "version": "1.0.0",
+  "description": "Travel salesman problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimvorontsov/TSP.git"
+  },
+  "author": "vadimvorontsov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vadimvorontsov/TSP/issues"
+  },
+  "homepage": "https://github.com/vadimvorontsov/TSP#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "@storybook/addon-actions": "^6.4.18",
+    "@storybook/addon-essentials": "^6.1.21",
+    "@storybook/addon-links": "^6.4.18",
+    "@storybook/react": "^6.1.21",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
+    "@webpack-cli/generators": "^1.1.0",
+    "babel-jest": "^27.5.0",
+    "babel-loader": "^8.2.3",
+    "chromatic": "^6.4.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
