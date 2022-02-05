@@ -11,7 +11,8 @@
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=b06878b8ece4"
   },
   "repository": {
     "type": "git",
