@@ -1,8 +1,8 @@
 {
   "name": "tsp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Travel salesman problem",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "npx jest",
     "build": "webpack --mode=production --node-env=production",

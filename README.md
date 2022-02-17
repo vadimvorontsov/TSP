@@ -1,15 +1,16 @@
-# 🚀 Welcome to your new awesome project!
-
-This project has been created using **webpack-cli**, you can now run
-
+# 🚀 Welcome to another Travel Salesman Problem project!
+- Run this project
 ```
-npm run build
+npm run serve
 ```
 
-or
-
+- Run storybook
 ```
-yarn build
+npm run storybook
 ```
 
-to bundle your application
+- Run tests
+```
+npm run test
+```
+
