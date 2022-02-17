@@ -48,6 +48,10 @@ const config = {
             // Learn more about loaders from https://webpack.js.org/loaders/
         ],
     },
+    resolve: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.css', '.scss'],
+        modules: ['src', 'node_modules']
+    }
 };
 
 module.exports = () => {
