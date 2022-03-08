@@ -1,11 +1,11 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Area } from './Area';
-import * as PageStories from './Page.stories';
+import { Area } from "./Area";
+import * as PageStories from "./Page.stories";
 
 export default {
-  title: 'TSP/Area',
+  title: "TSP/Area",
   component: Area,
 } as ComponentMeta<typeof Area>;
 

@@ -1,10 +1,10 @@
-import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
 
-import { Page } from './Page';
+import { Page } from "./Page";
 
 export default {
-  title: 'TSP/Page',
+  title: "TSP/Page",
   component: Page,
 } as ComponentMeta<typeof Page>;
 
