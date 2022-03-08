@@ -1,11 +1,9 @@
 import React from "react";
 
-import { Button } from "./Button";
 import "./header.css";
-import { AppProps } from "../components/App";
 import { Small } from "./Button.stories";
 
-export const Header = (appProps: AppProps) => (
+export const Header = () => (
   <header>
     <div className="wrapper">
       <div>

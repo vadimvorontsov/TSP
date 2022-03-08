@@ -9,7 +9,7 @@ export const Page = (appProps: AppProps) => {
   console.log(appProps);
   return (
     <article>
-      <Header {...appProps} />
+      <Header />
 
       <section>
         <h1>Area with {appProps.point_count} points</h1>
